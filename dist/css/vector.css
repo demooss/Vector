@@ -559,3 +559,21 @@ body{
 .text-size\:2xs{
     font-size: xx-small;
 }
+
+/* Components */
+
+.btn{
+    transition: 0.5s;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 7px;
+}
+
+.btn\:outline{
+    transition: 0.5s;
+    padding: 11px 20px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--bg-color, none);
+}
