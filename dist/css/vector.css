@@ -536,3 +536,26 @@ body{
 .italic{font-style: italic;}
 .italic-none{font-style: normal;}
 .italic-bold{font-weight: bold;font-style: italic;}
+
+/* font size */
+.text-size\:l{
+    font-size: large;
+}
+.text-size\:xl{
+    font-size: x-large;
+}
+.text-size\:2xl{
+    font-size: xx-large;
+}
+.text-size\:m{
+    font-size: medium;
+}
+.text-size\:s{
+    font-size: small;
+}
+.text-size\:xs{
+    font-size: x-small;
+}
+.text-size\:2xs{
+    font-size: xx-small;
+}
