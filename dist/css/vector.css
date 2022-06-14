@@ -10,85 +10,86 @@ body{
 /* utility class */
 
 /* background color */
-.bg-black,.hover\:bg-black:hover,.active\:bg-black:active{background:#000;}
-.bg-blue,.hover\:bg-blue:hover,.active\:bg-blue:active{background:#00F;}
-.bg-blue-100,.hover\:bg-blue-100:hover,.active\:bg-blue-100:active{background:#DBEAFE;}
-.bg-blue-200,.hover\:bg-blue-200:hover,.active\:bg-blue-200:active{background:#BFDBFE;}
-.bg-blue-300,.hover\:bg-blue-300:hover,.active\:bg-blue-300:active{background:#93C5FD;}
-.bg-blue-400,.hover\:bg-blue-400:hover,.active\:bg-blue-400:active{background:#60A5FA;}
-.bg-blue-50,.hover\:bg-blue-50:hover,.active\:bg-blue-50:active{background:#EFF6FF;}
-.bg-blue-500,.hover\:bg-blue-500:hover,.active\:bg-blue-500:active{background:#3B82F6;}
-.bg-blue-600,.hover\:bg-blue-600:hover,.active\:bg-blue-600:active{background:#2563EB;}
-.bg-blue-700,.hover\:bg-blue-700:hover,.active\:bg-blue-700:active{background:#1D4ED8;}
-.bg-blue-800,.hover\:bg-blue-800:hover,.active\:bg-blue-800:active{background:#1E40AF;}
-.bg-blue-900,.hover\:bg-blue-900:hover,.active\:bg-blue-900:active{background:#1E3A8A;}
-.bg-gray,.hover\:bg-gray:hover,.active\:bg-gray:active{background:gray;}
-.bg-gray-100,.hover\:bg-gray-100:hover,.active\:bg-gray-100:active{background:#F4F4F5;}
-.bg-gray-200,.hover\:bg-gray-200:hover,.active\:bg-gray-200:active{background:#E4E4E7;}
-.bg-gray-300,.hover\:bg-gray-300:hover,.active\:bg-gray-300:active{background:#D4D4D8;}
-.bg-gray-400,.hover\:bg-gray-400:hover,.active\:bg-gray-400:active{background:#A1A1AA;}
-.bg-gray-50,.hover\:bg-gray-50:hover,.active\:bg-gray-50:active{background:#FAFAFA;}
-.bg-gray-500,.hover\:bg-gray-500:hover,.active\:bg-gray-500:active{background:#71717A;}
-.bg-gray-600,.hover\:bg-gray-600:hover,.active\:bg-gray-600:active{background:#52525B;}
-.bg-gray-700,.hover\:bg-gray-700:hover,.active\:bg-gray-700:active{background:#3F3F46;}
-.bg-gray-800,.hover\:bg-gray-800:hover,.active\:bg-gray-800:active{background:#27272A;}
-.bg-gray-900,.hover\:bg-gray-900:hover,.active\:bg-gray-900:active{background:#18181B;}
-.bg-green,.hover\:bg-green:hover,.active\:bg-green:active{background:#0f0;}
-.bg-green-100,.hover\:bg-green-100:hover,.active\:bg-green-100:active{background:#DCFCE7;}
-.bg-green-200,.hover\:bg-green-200:hover,.active\:bg-green-200:active{background:#BBF7D0;}
-.bg-green-300,.hover\:bg-green-300:hover,.active\:bg-green-300:active{background:#86EFAC;}
-.bg-green-400,.hover\:bg-green-400:hover,.active\:bg-green-400:active{background:#4ADE80;}
-.bg-green-50,.hover\:bg-green-50:hover,.active\:bg-green-50:active{background:#F0FDF4;}
-.bg-green-500,.hover\:bg-green-500:hover,.active\:bg-green-500:active{background:#22C55E;}
-.bg-green-600,.hover\:bg-green-600:hover,.active\:bg-green-600:active{background:#16A34A;}
-.bg-green-700,.hover\:bg-green-700:hover,.active\:bg-green-700:active{background:#15803D;}
-.bg-green-800,.hover\:bg-green-800:hover,.active\:bg-green-800:active{background:#166534;}
-.bg-green-900,.hover\:bg-green-900:hover,.active\:bg-green-900:active{background:#14532D;}
-.bg-pink,.hover\:bg-pink:hover,.active\:bg-pink:active{background:#FFC0CB;}
-.bg-pink-100,.hover\:bg-pink-100:hover,.active\:bg-pink-100:active{background:#FCE7F3;}
-.bg-pink-200,.hover\:bg-pink-200:hover,.active\:bg-pink-200:active{background:#FBCFE8;}
-.bg-pink-300,.hover\:bg-pink-300:hover,.active\:bg-pink-300:active{background:#F9A8D4;}
-.bg-pink-400,.hover\:bg-pink-400:hover,.active\:bg-pink-400:active{background:#F472B6;}
-.bg-pink-50,.hover\:bg-pink-50:hover,.active\:bg-pink-50:active{background:#FDF2F8;}
-.bg-pink-500,.hover\:bg-pink-500:hover,.active\:bg-pink-500:active{background:#EC4899;}
-.bg-pink-600,.hover\:bg-pink-600:hover,.active\:bg-pink-600:active{background:#DB2777;}
-.bg-pink-700,.hover\:bg-pink-700:hover,.active\:bg-pink-700:active{background:#BE185D;}
-.bg-pink-800,.hover\:bg-pink-800:hover,.active\:bg-pink-800:active{background:#9D174D;}
-.bg-pink-900,.hover\:bg-pink-900:hover,.active\:bg-pink-900:active{background:#831843;}
-.bg-purple,.hover\:bg-purple:hover,.active\:bg-purple:active{background:purple;}
-.bg-purple-100,.hover\:bg-purple-100:hover,.active\:bg-purple-100:active{background:#F3E8FF;}
-.bg-purple-200,.hover\:bg-purple-200:hover,.active\:bg-purple-200:active{background:#E9D5FF;}
-.bg-purple-300,.hover\:bg-purple-300:hover,.active\:bg-purple-300:active{background:#D8B4FE;}
-.bg-purple-400,.hover\:bg-purple-400:hover,.active\:bg-purple-400:active{background:#C084FC;}
-.bg-purple-50,.hover\:bg-purple-50:hover,.active\:bg-purple-50:active{background:#FAF5FF;}
-.bg-purple-500,.hover\:bg-purple-500:hover,.active\:bg-purple-500:active{background:#A855F7;}
-.bg-purple-600,.hover\:bg-purple-600:hover,.active\:bg-purple-600:active{background:#9333EA;}
-.bg-purple-700,.hover\:bg-purple-700:hover,.active\:bg-purple-700:active{background:#7E22CE;}
-.bg-purple-800,.hover\:bg-purple-800:hover,.active\:bg-purple-800:active{background:#6B21A8;}
-.bg-purple-900,.hover\:bg-purple-900:hover,.active\:bg-purple-900:active{background:#581C87;}
-.bg-red,.hover\:bg-red:hover,.active\:bg-red:active{background:red;}
-.bg-red-100,.hover\:bg-red-100:hover,.active\:bg-red-100:active{background:#FEE2E2;}
-.bg-red-200,.hover\:bg-red-200:hover,.active\:bg-red-200:active{background:#FECACA;}
-.bg-red-300,.hover\:bg-red-300:hover,.active\:bg-red-300:active{background:#FCA5A5;}
-.bg-red-400,.hover\:bg-red-400:hover,.active\:bg-red-400:active{background:#F87171;}
-.bg-red-50,.hover\:bg-red-50:hover,.active\:bg-red-50:active{background:#FEF2F2;}
-.bg-red-500,.hover\:bg-red-500:hover,.active\:bg-red-500:active{background:#EF4444;}
-.bg-red-600,.hover\:bg-red-600:hover,.active\:bg-red-600:active{background:#DC2626;}
-.bg-red-700,.hover\:bg-red-700:hover,.active\:bg-red-700:active{background:#B91C1C;}
-.bg-red-800,.hover\:bg-red-800:hover,.active\:bg-red-800:active{background:#991B1B;}
-.bg-red-900,.hover\:bg-red-900:hover,.active\:bg-red-900:active{background:#7F1D1D;}
-.bg-white,.hover\:bg-white:hover,.active\:bg-white:active{background:#fff;}
-.bg-yellow,.hover\:bg-yellow:hover,.active\:bg-yellow:active{background:#ff0;}
-.bg-yellow-100,.hover\:bg-yellow-100:hover,.active\:bg-yellow-100:active{background:#FEF9C3;}
-.bg-yellow-200,.hover\:bg-yellow-200:hover,.active\:bg-yellow-200:active{background:#FEF08A;}
-.bg-yellow-300,.hover\:bg-yellow-300:hover,.active\:bg-yellow-300:active{background:#FDE047;}
-.bg-yellow-400,.hover\:bg-yellow-400:hover,.active\:bg-yellow-400:active{background:#FACC15;}
-.bg-yellow-50,.hover\:bg-yellow-50:hover,.active\:bg-yellow-50:active{background:#FEFCE8;}
-.bg-yellow-500,.hover\:bg-yellow-500:hover,.active\:bg-yellow-500:active{background:#EAB308;}
-.bg-yellow-600,.hover\:bg-yellow-600:hover,.active\:bg-yellow-600:active{background:#CA8A04;}
-.bg-yellow-700,.hover\:bg-yellow-700:hover,.active\:bg-yellow-700:active{background:#A16207;}
-.bg-yellow-800,.hover\:bg-yellow-800:hover,.active\:bg-yellow-800:active{background:#854D0E;}
-.bg-yellow-900,.hover\:bg-yellow-900:hover,.active\:bg-yellow-900:active{background:#713F12;}
+.bg-transparent{background-color: transparent; --bg-color: transparent;}
+.bg-black,.hover\:bg-black:hover,.active\:bg-black:active{background:#000; --bg-color: #000;}
+.bg-blue,.hover\:bg-blue:hover,.active\:bg-blue:active{background:#00F; --bg-color: #00F;}
+.bg-blue-100,.hover\:bg-blue-100:hover,.active\:bg-blue-100:active{background:#DBEAFE; --bg-color: #DBEAFE;}
+.bg-blue-200,.hover\:bg-blue-200:hover,.active\:bg-blue-200:active{background:#BFDBFE; --bg-color: #BFDBFE;}
+.bg-blue-300,.hover\:bg-blue-300:hover,.active\:bg-blue-300:active{background:#93C5FD; --bg-color: #93C5FD;}
+.bg-blue-400,.hover\:bg-blue-400:hover,.active\:bg-blue-400:active{background:#60A5FA; --bg-color: #60A5FA;}
+.bg-blue-50,.hover\:bg-blue-50:hover,.active\:bg-blue-50:active{background:#EFF6FF; --bg-color: #EFF6FF;}
+.bg-blue-500,.hover\:bg-blue-500:hover,.active\:bg-blue-500:active{background:#3B82F6; --bg-color: #3B82F6;}
+.bg-blue-600,.hover\:bg-blue-600:hover,.active\:bg-blue-600:active{background:#2563EB; --bg-color: #2563EB;}
+.bg-blue-700,.hover\:bg-blue-700:hover,.active\:bg-blue-700:active{background:#1D4ED8; --bg-color: #1D4ED8;}
+.bg-blue-800,.hover\:bg-blue-800:hover,.active\:bg-blue-800:active{background:#1E40AF; --bg-color: #1E40AF;}
+.bg-blue-900,.hover\:bg-blue-900:hover,.active\:bg-blue-900:active{background:#1E3A8A; --bg-color: #1E3A8A;}
+.bg-gray,.hover\:bg-gray:hover,.active\:bg-gray:active{background:gray; --bg-color: gray;}
+.bg-gray-100,.hover\:bg-gray-100:hover,.active\:bg-gray-100:active{background:#F4F4F5; --bg-color: #F4F4F5;}
+.bg-gray-200,.hover\:bg-gray-200:hover,.active\:bg-gray-200:active{background:#E4E4E7; --bg-color: #E4E4E7;}
+.bg-gray-300,.hover\:bg-gray-300:hover,.active\:bg-gray-300:active{background:#D4D4D8; --bg-color: #D4D4D8;}
+.bg-gray-400,.hover\:bg-gray-400:hover,.active\:bg-gray-400:active{background:#A1A1AA; --bg-color: #A1A1AA;}
+.bg-gray-50,.hover\:bg-gray-50:hover,.active\:bg-gray-50:active{background:#FAFAFA; --bg-color: #FAFAFA;}
+.bg-gray-500,.hover\:bg-gray-500:hover,.active\:bg-gray-500:active{background:#71717A; --bg-color: #71717A;}
+.bg-gray-600,.hover\:bg-gray-600:hover,.active\:bg-gray-600:active{background:#52525B; --bg-color: #52525B;}
+.bg-gray-700,.hover\:bg-gray-700:hover,.active\:bg-gray-700:active{background:#3F3F46; --bg-color: #3F3F46;}
+.bg-gray-800,.hover\:bg-gray-800:hover,.active\:bg-gray-800:active{background:#27272A; --bg-color: #27272A;}
+.bg-gray-900,.hover\:bg-gray-900:hover,.active\:bg-gray-900:active{background:#18181B; --bg-color: #18181B;}
+.bg-green,.hover\:bg-green:hover,.active\:bg-green:active{background:#0f0; --bg-color: ;}
+.bg-green-100,.hover\:bg-green-100:hover,.active\:bg-green-100:active{background:#DCFCE7; --bg-color: #DCFCE7;}
+.bg-green-200,.hover\:bg-green-200:hover,.active\:bg-green-200:active{background:#BBF7D0; --bg-color: #BBF7D0;}
+.bg-green-300,.hover\:bg-green-300:hover,.active\:bg-green-300:active{background:#86EFAC; --bg-color: #86EFAC;}
+.bg-green-400,.hover\:bg-green-400:hover,.active\:bg-green-400:active{background:#4ADE80; --bg-color: #4ADE80;}
+.bg-green-50,.hover\:bg-green-50:hover,.active\:bg-green-50:active{background:#F0FDF4; --bg-color: #F0FDF4;}
+.bg-green-500,.hover\:bg-green-500:hover,.active\:bg-green-500:active{background:#22C55E; --bg-color: #22C55E;}
+.bg-green-600,.hover\:bg-green-600:hover,.active\:bg-green-600:active{background:#16A34A; --bg-color: #16A34A;}
+.bg-green-700,.hover\:bg-green-700:hover,.active\:bg-green-700:active{background:#15803D; --bg-color: #15803D;}
+.bg-green-800,.hover\:bg-green-800:hover,.active\:bg-green-800:active{background:#166534; --bg-color: #166534;}
+.bg-green-900,.hover\:bg-green-900:hover,.active\:bg-green-900:active{background:#14532D; --bg-color: #14532D;}
+.bg-pink,.hover\:bg-pink:hover,.active\:bg-pink:active{background:#FFC0CB; --bg-color: #FFC0CB;}
+.bg-pink-100,.hover\:bg-pink-100:hover,.active\:bg-pink-100:active{background:#FCE7F3; --bg-color: #FCE7F3;}
+.bg-pink-200,.hover\:bg-pink-200:hover,.active\:bg-pink-200:active{background:#FBCFE8; --bg-color: #FBCFE8;}
+.bg-pink-300,.hover\:bg-pink-300:hover,.active\:bg-pink-300:active{background:#F9A8D4; --bg-color: #F9A8D4;}
+.bg-pink-400,.hover\:bg-pink-400:hover,.active\:bg-pink-400:active{background:#F472B6; --bg-color: #F472B6;}
+.bg-pink-50,.hover\:bg-pink-50:hover,.active\:bg-pink-50:active{background:#FDF2F8; --bg-color: #FDF2F8;}
+.bg-pink-500,.hover\:bg-pink-500:hover,.active\:bg-pink-500:active{background:#EC4899; --bg-color: #EC4899;}
+.bg-pink-600,.hover\:bg-pink-600:hover,.active\:bg-pink-600:active{background:#DB2777; --bg-color: #DB2777;}
+.bg-pink-700,.hover\:bg-pink-700:hover,.active\:bg-pink-700:active{background:#BE185D; --bg-color: #BE185D;}
+.bg-pink-800,.hover\:bg-pink-800:hover,.active\:bg-pink-800:active{background:#9D174D; --bg-color: #9D174D;}
+.bg-pink-900,.hover\:bg-pink-900:hover,.active\:bg-pink-900:active{background:#831843; --bg-color: #831843;}
+.bg-purple,.hover\:bg-purple:hover,.active\:bg-purple:active{background:purple; --bg-color: purple;}
+.bg-purple-100,.hover\:bg-purple-100:hover,.active\:bg-purple-100:active{background:#F3E8FF; --bg-color: #F3E8FF;}
+.bg-purple-200,.hover\:bg-purple-200:hover,.active\:bg-purple-200:active{background:#E9D5FF; --bg-color: #E9D5FF;}
+.bg-purple-300,.hover\:bg-purple-300:hover,.active\:bg-purple-300:active{background:#D8B4FE; --bg-color: #D8B4FE;}
+.bg-purple-400,.hover\:bg-purple-400:hover,.active\:bg-purple-400:active{background:#C084FC; --bg-color: #C084FC;}
+.bg-purple-50,.hover\:bg-purple-50:hover,.active\:bg-purple-50:active{background:#FAF5FF; --bg-color: #FAF5FF;}
+.bg-purple-500,.hover\:bg-purple-500:hover,.active\:bg-purple-500:active{background:#A855F7; --bg-color: #A855F7;}
+.bg-purple-600,.hover\:bg-purple-600:hover,.active\:bg-purple-600:active{background:#9333EA; --bg-color: #9333EA;}
+.bg-purple-700,.hover\:bg-purple-700:hover,.active\:bg-purple-700:active{background:#7E22CE; --bg-color: #7E22CE;}
+.bg-purple-800,.hover\:bg-purple-800:hover,.active\:bg-purple-800:active{background:#6B21A8; --bg-color: #6B21A8;}
+.bg-purple-900,.hover\:bg-purple-900:hover,.active\:bg-purple-900:active{background:#581C87; --bg-color: #581C87;}
+.bg-red,.hover\:bg-red:hover,.active\:bg-red:active{background:red; --bg-color: red;}
+.bg-red-100,.hover\:bg-red-100:hover,.active\:bg-red-100:active{background:#FEE2E2; --bg-color: #FEE2E2;}
+.bg-red-200,.hover\:bg-red-200:hover,.active\:bg-red-200:active{background:#FECACA; --bg-color: #FECACA;}
+.bg-red-300,.hover\:bg-red-300:hover,.active\:bg-red-300:active{background:#FCA5A5; --bg-color: #FCA5A5;}
+.bg-red-400,.hover\:bg-red-400:hover,.active\:bg-red-400:active{background:#F87171; --bg-color: #F87171;}
+.bg-red-50,.hover\:bg-red-50:hover,.active\:bg-red-50:active{background:#FEF2F2; --bg-color: #FEF2F2;}
+.bg-red-500,.hover\:bg-red-500:hover,.active\:bg-red-500:active{background:#EF4444; --bg-color: #EF4444;}
+.bg-red-600,.hover\:bg-red-600:hover,.active\:bg-red-600:active{background:#DC2626; --bg-color: #DC2626;}
+.bg-red-700,.hover\:bg-red-700:hover,.active\:bg-red-700:active{background:#B91C1C; --bg-color: #B91C1C;}
+.bg-red-800,.hover\:bg-red-800:hover,.active\:bg-red-800:active{background:#991B1B; --bg-color: #991B1B;}
+.bg-red-900,.hover\:bg-red-900:hover,.active\:bg-red-900:active{background:#7F1D1D; --bg-color: #7F1D1D;}
+.bg-white,.hover\:bg-white:hover,.active\:bg-white:active{background:#fff; --bg-color: #fff;}
+.bg-yellow,.hover\:bg-yellow:hover,.active\:bg-yellow:active{background:#ff0; --bg-color: #ff0;}
+.bg-yellow-100,.hover\:bg-yellow-100:hover,.active\:bg-yellow-100:active{background:#FEF9C3; --bg-color: #FEF9C3;}
+.bg-yellow-200,.hover\:bg-yellow-200:hover,.active\:bg-yellow-200:active{background:#FEF08A; --bg-color: #FEF08A;}
+.bg-yellow-300,.hover\:bg-yellow-300:hover,.active\:bg-yellow-300:active{background:#FDE047; --bg-color: #FDE047;}
+.bg-yellow-400,.hover\:bg-yellow-400:hover,.active\:bg-yellow-400:active{background:#FACC15; --bg-color: #FACC15;}
+.bg-yellow-50,.hover\:bg-yellow-50:hover,.active\:bg-yellow-50:active{background:#FEFCE8; --bg-color: #FEFCE8;}
+.bg-yellow-500,.hover\:bg-yellow-500:hover,.active\:bg-yellow-500:active{background:#EAB308; --bg-color: #EAB308;}
+.bg-yellow-600,.hover\:bg-yellow-600:hover,.active\:bg-yellow-600:active{background:#CA8A04; --bg-color: #CA8A04;}
+.bg-yellow-700,.hover\:bg-yellow-700:hover,.active\:bg-yellow-700:active{background:#A16207; --bg-color: #A16207;}
+.bg-yellow-800,.hover\:bg-yellow-800:hover,.active\:bg-yellow-800:active{background:#854D0E; --bg-color: #854D0E;}
+.bg-yellow-900,.hover\:bg-yellow-900:hover,.active\:bg-yellow-900:active{background:#713F12; --bg-color: #713F12;}
 
 /* text color */
 .text-black,.hover\:text-black:hover,.active\:text-black:active{color:#000;}
