@@ -3,6 +3,10 @@
   
   <p>front-end framework for fast and powerful configuration of utilities and intuitive UI</p>
   <a href="{{ url }}"><strong>Getting Started with Vector  →</strong></a>
+  <br>
+  <br>
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SkillClass/Vector?style=flat-square">
+  <img alt="GitHub" src="https://img.shields.io/github/license/SkillClass/Vector?style=flat-square">
 </div>
 
 
