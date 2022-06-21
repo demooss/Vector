@@ -1,26 +1,23 @@
 /* 
-    Vector 0.1.0
+    Vector 0.1.0 - TestReleases
     (c) 2022 Inpyung SkillClass OSS
     MIT License - Released under the MIT License.
     https://github.com/SkillClass/Vector/blob/main/LICENSE
 */
 
-(()=>{ 
-    const createStyle = (property,style)=>{
+const vector = {
+    createStyle(selector,style){
         if(!document.querySelector('head style')){
             let createStyleElement = document.createElement('style');
             document.querySelector('head').appendChild(createStyleElement);
-            createStyleElement.sheet.insertRule(`${property}{${style}}`);
+            createStyleElement.sheet.insertRule(`${selector}{${style}}`);
         }else{
-            document.querySelector('head style').sheet.insertRule(`${property}{${style}}`);
+            document.querySelector('head style').sheet.insertRule(`${selector}{${style}}`);
         }
-    };
-
-    const elementClassNamePrefix = (prefix)=>{
-        if(document.querySelectorAll(`[class*='${prefix}']`)){
-            return document.querySelectorAll(`[class*='${prefix}']`);
-        }else{
-            return null;
-        }
-    };
-})()
+    },
+    createStyleSelectorArray(selector,style){
+        selector.forEach(element => {
+            this.createStyle(element,style);
+        });
+    }
+};
