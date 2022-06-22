@@ -5,8 +5,8 @@
     https://github.com/SkillClass/Vector/blob/main/LICENSE
 */
 
-const vector = {
-    createStyle(selector,style){
+(function () {
+    const createStyle = (selector,style)=>{
         if(!document.querySelector('head style')){
             let createStyleElement = document.createElement('style');
             document.querySelector('head').appendChild(createStyleElement);
@@ -14,10 +14,10 @@ const vector = {
         }else{
             document.querySelector('head style').sheet.insertRule(`${selector}{${style}}`);
         }
-    },
-    createStyleSelectorArray(selector,style){
+     }
+    const createStyleSelectorArray = (selector,style)=>{
         selector.forEach(element => {
             this.createStyle(element,style);
         });
     }
-};
+})();
