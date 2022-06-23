@@ -27,4 +27,13 @@
         padding: 11px 20px;
         border-radius: 7px;
     `);
+    
+    createStyle('.btn\:outline',`
+        transition: 0.5s;
+        padding: 11px 20px;
+        border-radius: 7px;
+        border-style: solid;
+        border-width: 1px;
+        background-color: var(--bg-color, none);
+    `);
 })();
