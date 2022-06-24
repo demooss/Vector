@@ -5,8 +5,8 @@
   <a href="{{ url }}"><strong>Getting Started with Vector  →</strong></a>
   <br>
   <br>
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SkillClass/Vector?style=flat-square">
-  <img alt="GitHub" src="https://img.shields.io/github/license/SkillClass/Vector?style=flat-square">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/demooss/Vector?style=flat-square">
+  <img alt="GitHub" src="https://img.shields.io/github/license/demooss/Vector?style=flat-square">
 </div>
 
 
