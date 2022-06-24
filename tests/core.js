@@ -6,23 +6,27 @@
 */
 
 (function () {
-     const createStyle=(selector,style)=>{
-        if(!document.querySelector('head style')){
-            let createStyleElement = document.createElement('style');
-            document.querySelector('head').appendChild(createStyleElement);
-            createStyleElement.sheet.insertRule(`${selector}{${style}}`);
-        }else{
-            document.querySelector('head style').sheet.insertRule(`${selector}{${style}}`);
-        }
-    };
-    const createStyleSelectorArray=(selector,style)=>{
-        selector.forEach(element => {
-            createStyle(element,style);
-        });
-    };
-    const createStyleArrayClass=(selector,style)=>{
-        selector.forEach(element => {
-            createStyle(`.${element}`,`${style}:${element};`);
-        });
-    };
+    const createStyle=(selector,style)=>{
+       if(!document.querySelector('head style')){
+           let createStyleElement = document.createElement('style');
+           document.querySelector('head').appendChild(createStyleElement);
+           createStyleElement.sheet.insertRule(`${selector}{${style}}`);
+       }else{
+           document.querySelector('head style').sheet.insertRule(`${selector}{${style}}`);
+       }
+   };
+//    const createStyleSelectorArray=(selector,style)=>{
+//        selector.forEach(element => {
+//            createStyle(element,style);
+//        });
+//    };
+
+   // createStyleArrayClass([{className: "line-bottom", styleValue: "underline"}], 'text-decoration')
+   const createStyleArrayClass=(selector,styleName)=>{
+       selector.forEach(ele => {
+           createStyle(`.${ele.className}`,`${styleName}:${ele.styleValue};`);
+       });
+   };
+   
+   
 })();
