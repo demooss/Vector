@@ -6,7 +6,7 @@
 */
 
 (function () {
-    const createStyle = (selector,style)=>{
+     const createStyle=(selector,style)=>{
         if(!document.querySelector('head style')){
             let createStyleElement = document.createElement('style');
             document.querySelector('head').appendChild(createStyleElement);
@@ -14,10 +14,15 @@
         }else{
             document.querySelector('head style').sheet.insertRule(`${selector}{${style}}`);
         }
-     }
-    const createStyleSelectorArray = (selector,style)=>{
+    };
+    const createStyleSelectorArray=(selector,style)=>{
         selector.forEach(element => {
-            this.createStyle(element,style);
+            createStyle(element,style);
         });
-    }
+    };
+    const createStyleArrayClass=(selector,style)=>{
+        selector.forEach(element => {
+            createStyle(`.${element}`,`${style}:${element};`);
+        });
+    };
 })();
