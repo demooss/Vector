@@ -42,12 +42,18 @@
             });
         }
     };
+    
+    // font size
+    newCreateStyle([{name:'text-size\:l',value:'large'},{name:'text-size\:xl',value:'x-large'},{name:'text-size\:2xl',value:'xx-large'},{name:'text-size\:m',value:'medium'},{name:'text-size\:s',value:'small'},{name:'text-size\:xs',value:'x-small'},{name:'text-size\:2xs',value:'xx-small'}],'font-size');
 
     // Text Decoration Line
     newCreateStyle([{name:'bottom',value:'underline'},{name:'overline',value:'overline'},{name:'through',value:'line-through'},{name:'none',value:'none'}],'text-decoration','line');
-    
+
     // Text Decoration Style
     createStyleArrayClass(['solid','double','dotted','dashed','wavy'],'text-decoration-style','line');
+
+    // Font Style
+    newCreateStyle(['normal','italic'],'font-style');
 
     // Display
     createStyleArrayClass(['none','inline','block','contents','flex','grid','inline-block','inline-flex','inline-grid','inline-table','list-item','run-in','table','table-caption','table-column-group','table-header-group','table-footer-group','table-row-group','table-cell','table-column','table-row','initial'],'display');
@@ -55,7 +61,7 @@
     // Font Weight
     createStyleArrayClass(['100','200','300','400','500','600','900','bold','bolder'],'font-weight','text');
 
-    // Text Align
+    // Text Align   
     createStyleArrayClass(['left','center','right','justify','start','end'],'text-align','text');
 
 })();
